@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <!-- Folder containing SpaceEngineers2.exe -->
-    <Game2>$(registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 1133870@InstallLocation)\Game2</Game2>
+    <Game2>D:\SteamLibrary\steamapps\common\SpaceEngineers2\Game2</Game2>
 
     <!-- Folder containing Pulsar's data -->
     <Pulsar Condition="$([MSBuild]::IsOSPlatform('Windows'))">$(APPDATA)\Pulsar</Pulsar>
