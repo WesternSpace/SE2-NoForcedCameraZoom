@@ -1,7 +1,11 @@
 ﻿using HarmonyLib;
-using Keen.Game2.Game.Plugins;
+using Keen.VRage.Core.Plugins;
 using Keen.VRage.Library.Diagnostics;
 using System.Reflection;
+
+[assembly:AssemblyVersion("1.0.1")]
+[assembly:AssemblyFileVersion("1.0.1")]
+[assembly:AssemblyCopyright("© 2026 WesternSpace")]
 
 namespace ClientPlugin;
 
